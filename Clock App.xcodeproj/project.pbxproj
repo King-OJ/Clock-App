@@ -10,6 +10,7 @@
 		B07126F52AA9CB4A000CFA5C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07126F42AA9CB4A000CFA5C /* MainView.swift */; };
 		B07126F72AA9CE56000CFA5C /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07126F62AA9CE56000CFA5C /* AlarmView.swift */; };
 		B07126FA2AA9E57B000CFA5C /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07126F92AA9E57B000CFA5C /* AddAlarmView.swift */; };
+		B07126FD2AAA101D000CFA5C /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07126FC2AAA101D000CFA5C /* TimerView.swift */; };
 		B08E99292A9E0A7A0004AF52 /* Clock_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08E99282A9E0A7A0004AF52 /* Clock_AppApp.swift */; };
 		B08E992B2A9E0A7A0004AF52 /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08E992A2A9E0A7A0004AF52 /* StopwatchView.swift */; };
 		B08E992D2A9E0A7C0004AF52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B08E992C2A9E0A7C0004AF52 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		B07126F42AA9CB4A000CFA5C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B07126F62AA9CE56000CFA5C /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
 		B07126F92AA9E57B000CFA5C /* AddAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmView.swift; sourceTree = "<group>"; };
+		B07126FC2AAA101D000CFA5C /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		B08E99252A9E0A7A0004AF52 /* Clock App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clock App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08E99282A9E0A7A0004AF52 /* Clock_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock_AppApp.swift; sourceTree = "<group>"; };
 		B08E992A2A9E0A7A0004AF52 /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,14 @@
 			path = Alarm;
 			sourceTree = "<group>";
 		};
+		B07126FB2AAA0FC2000CFA5C /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				B07126FC2AAA101D000CFA5C /* TimerView.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
 		B08E991C2A9E0A790004AF52 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +131,7 @@
 				B07126F42AA9CB4A000CFA5C /* MainView.swift */,
 				B07126F32AA9CAC3000CFA5C /* Stopwatch */,
 				B07126F82AA9CF1B000CFA5C /* Alarm */,
+				B07126FB2AAA0FC2000CFA5C /* Timer */,
 				B08E992C2A9E0A7C0004AF52 /* Assets.xcassets */,
 				B08E992E2A9E0A7C0004AF52 /* Preview Content */,
 			);
@@ -282,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B07126FD2AAA101D000CFA5C /* TimerView.swift in Sources */,
 				B07126FA2AA9E57B000CFA5C /* AddAlarmView.swift in Sources */,
 				B08E992B2A9E0A7A0004AF52 /* StopwatchView.swift in Sources */,
 				B07126F52AA9CB4A000CFA5C /* MainView.swift in Sources */,
